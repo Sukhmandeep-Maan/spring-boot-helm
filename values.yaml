@@ -1,0 +1,12 @@
+caCount: 1
+
+app:
+  name: spring-boot-app
+
+image:
+  repository: sukhmanmaan/spring-boot-app
+  tag: "20"
+  pullPolicy: IfNotPresent
+
+container:
+  port: 8080
